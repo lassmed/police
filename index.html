@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #container{
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>style</title>
+</head>
+<body>
+<p id="contenu" style="font-size: 30px">She asked the question even though she didn't really want to hear the answer. It was a no-win situation since she already knew. If he told the truth, she'd get confirmation of her worst fears. If he lied, she'd know that he wasn't who she thought he was which would be almost as bad. Yet she asked the question anyway and waited for his answer.
+    He took a sip of the drink. He wasn't sure whether he liked it or not, but at this moment it didn't matter. She had made it especially for him so he would have forced it down even if he had absolutely hated it. That's simply the way things worked. She made him a new-fangled drink each day and he took a sip of it and smiled, saying it was excellent.</p>
+<div id="container">
+    <label>Color :</label><input id="color" type="color" value="">
+    <label>Size :</label><input id ="size" type="text" value="" onchange="changesize()">
+    <label>Font Family :</label><select id="police" onchange="changepolice()">
+        <option value="Garamond" id="l1" value="Garamond">Garamond</option>
+        <option id="l2" value="Verdana">Verdana</option>
+        <option value="Times New roman" id="l3">Times New roman</option>
+    </select>
+</div>
+<script src="ex2.js"></script>
+</body>
+</html>
